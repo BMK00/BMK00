@@ -66,12 +66,11 @@ End-to-end medallion pipeline (Bronze → Silver → Gold) merging two companies
 
 <br/>
 
-## GitHub Stats
+## Currently
 
-<p align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=BMK00&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=C9D1D9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BMK00&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" />
-</p>
+- Building out incremental and CDC-style patterns with Airflow + dbt across different warehouses
+- Deepening Delta Lake internals — Change Data Feed, time travel, and Unity Catalog governance
+- Always happy to talk through pipeline design, medallion architecture, or data quality tradeoffs
 
 <br/>
 
