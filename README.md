@@ -1,48 +1,82 @@
-# Hi 👋, I'm BMK00
+<div align="center">
 
-### Data Engineer building reliable, scalable data pipelines
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=24&pause=1200&color=38BDF8&center=true&vCenter=true&width=560&lines=Data+Engineer;Airflow+%C2%B7+dbt+%C2%B7+PySpark+%C2%B7+Delta+Lake;Building+reliable%2C+scalable+data+pipelines" alt="Typing SVG" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mallikharjuna-karthik-balla-4a301042a/) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:karthik123bm@gmail.com)
+<p>
+<a href="https://www.linkedin.com/in/mallikharjuna-karthik-balla-4a301042a"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=0A66C2" /></a>
+<a href="mailto:karthik123bm@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=flat-square&logo=gmail&logoColor=EA4335" /></a>
+<a href="https://github.com/BMK00"><img src="https://img.shields.io/badge/GitHub-0D1117?style=flat-square&logo=github&logoColor=FFFFFF" /></a>
+</p>
 
----
+</div>
 
-### 🚀 About Me
+<br/>
 
-🔭 I build end-to-end data pipelines — from raw ingestion to analytics-ready gold tables.
-⚙️ My first hands-on data engineering project is a Databricks medallion architecture pipeline (Bronze → Silver → Gold) merging sales data from two companies into one analytics layer — see Featured Project below.
-🧱 Comfortable with PySpark, Spark SQL, Delta Lake, and Unity Catalog.
-☁️ Working with AWS S3 for data ingestion and Databricks Lakeflow Jobs for orchestration.
-📈 I care about data quality — deduping, schema drift, and inconsistent formats are problems I enjoy solving.
-💬 Ask me about pipeline design, medallion architecture, or Spark data cleaning.
+## About
 
----
+I design and build ELT/ETL pipelines that turn messy, multi-source data into analytics-ready tables — with an emphasis on data quality, incremental processing, and pipelines that don't break when upstream data does.
 
-### 🛠️ Tech Stack
+My work spans two patterns I care about most: **medallion architecture** (Bronze → Silver → Gold on Databricks and Delta Lake) and **incremental, CDC-style pipelines** (watermark extraction, dbt merge strategies, SCD2 snapshots) orchestrated with Airflow.
 
-![Skills](https://skillicons.dev/icons?i=python,spark,postgresql,aws,docker,git,linux,bash)
+<br/>
 
-**Languages:** Python, SQL, Bash
-**Processing:** PySpark, Spark SQL
-**Storage:** Delta Lake, AWS S3
-**Platform:** Databricks (Unity Catalog, Lakeflow Jobs)
-**Tools:** Git, Docker
+## Tech Stack
 
----
+<p>
+<img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" />
+<img src="https://img.shields.io/badge/SQL-0D1117?style=flat-square&logo=postgresql&logoColor=4169E1" />
+<img src="https://img.shields.io/badge/Apache_Airflow-0D1117?style=flat-square&logo=apacheairflow&logoColor=017CEE" />
+<img src="https://img.shields.io/badge/dbt-0D1117?style=flat-square&logo=dbt&logoColor=FF694B" />
+<img src="https://img.shields.io/badge/PySpark-0D1117?style=flat-square&logo=apachespark&logoColor=E25A1C" />
+<img src="https://img.shields.io/badge/Databricks-0D1117?style=flat-square&logo=databricks&logoColor=FF3621" />
+<img src="https://img.shields.io/badge/Delta_Lake-0D1117?style=flat-square&logo=delta&logoColor=00ADD8" />
+<img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=4169E1" />
+<img src="https://img.shields.io/badge/AWS-0D1117?style=flat-square&logo=amazonaws&logoColor=FF9900" />
+<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED" />
+<img src="https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=F05032" />
+<img src="https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=FCC624" />
+</p>
 
-### 📌 Featured Project
+<br/>
 
-**[fmcg-databricks-data-pipeline](https://github.com/BMK00/fmcg-databricks-data-pipeline)** — End-to-end Databricks medallion pipeline (Bronze → Silver → Gold) that merges a parent company's and an acquired child company's sales data into one unified analytics layer. Built with PySpark, Delta Lake (Change Data Feed), Unity Catalog, and Lakeflow Jobs, with a denormalized SQL view feeding a BI dashboard. Handles schema drift, inconsistent date formats, and duplicate/malformed records across both source systems.
+## Featured Projects
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 📊 GitHub Stats
+**[airflow-dbt-postgres-cdc-finance](https://github.com/BMK00/airflow-dbt-postgres-cdc-finance)**
 
-![BMK00's GitHub stats](https://github-readme-stats.vercel.app/api?username=BMK00&show_icons=true&theme=default&hide_border=true)
+Incremental, CDC-style finance transactions pipeline. Airflow reads a watermark to pull only changed rows, dbt merges them into an incremental fact table, and a snapshot tracks account history with full SCD2 auditability.
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BMK00&layout=compact&hide_border=true)
+`Airflow` `dbt` `PostgreSQL` `Incremental Models` `SCD2`
 
----
+</td>
+<td width="50%" valign="top">
 
-### 📫 Let's Connect
+**[fmcg-databricks-data-pipeline](https://github.com/BMK00/fmcg-databricks-data-pipeline)**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mallikharjuna-karthik-balla-4a301042a/) [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:karthik123bm@gmail.com)
+End-to-end medallion pipeline (Bronze → Silver → Gold) merging two companies' sales data into one unified analytics layer, with Delta Lake CDF, Unity Catalog, and Lakeflow Jobs feeding a BI dashboard.
+
+`PySpark` `Delta Lake` `Unity Catalog` `Lakeflow Jobs`
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## GitHub Stats
+
+<p align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=BMK00&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=C9D1D9" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BMK00&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" />
+</p>
+
+<br/>
+
+<div align="center">
+
+*Open to data engineering roles — reach out on [LinkedIn](https://www.linkedin.com/in/mallikharjuna-karthik-balla-4a301042a) or by [email](mailto:karthik123bm@gmail.com).*
+
+</div>
